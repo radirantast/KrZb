@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <header class="header container">
+            <a class="logo">Photographer Kristina Zbarskaya</a>
+            <nav>
+                <ul class="header_menu">
+                    <li>
+                        <a class="header_list" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="header_list" href="#work">My projects</a>
+                    </li>
+                    <li>
+                        <a class="header_list" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="header__bars">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </nav>
+        </header>
+    </div>
+
+    <!-- mobile menu -->
+    <div class="mobile-nav">
+        <nav>
+            <ul class="mobile-nav__menu">
+                <li>
+                    <a class="mobile-nav__link" href="#about">About</a>
+
+                </li>
+                <li>
+                    <a class="mobile-nav__link" href="#work">My projects</a>
+                </li>
+                <li>
+                    <a class="mobile-nav__link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="study.js"></script>
+    <!-- end of mobile menu -->
+
+    <img src="1588.JPG" class="photobanner container" />
+
+    <section id="about"></section>
+
+    <div class="description container">
+        <p>"RIVERLAND" is a photo project that I started several years ago while attending a workshop with Vanessa Winship and George Georgiou in France.</p>
+        <br />
+        <p>The series depicts various scenes - portraits, stills and landscapes, all taken in and around rivers / waters in southern France.</p>
+        <br />
+        <p>With the series, I attempt to portray the way a meandering river compares to the always and unexpected course life takes, and flows... </p>
+        <br />
+        <p>*</p>
+        <br />
+        <p>“Riverland is Dutch photographer Marjolein Martinot’s poetic response to the dark sci-fi nightmare that was the global pandemic. With pictures that arise almost dreamlike from the water at the centre of her story, she focuses on the people—children, parents, lovers—drawn to the river to escape the pervasive loneliness and fear. Evoking memories of a favourite childhood summer, her images wash over us like a baptism of sorts, offering a new beginning.”</p>
+        <br />
+        <p>– Bill Shapiro, 2022 Former Editor-in-Chief at LIFE Magazine, writer </p>
+    </div>
+
+    <section id="work"></section>
+
+    <div class="container photos">
+        <img data-src="IMG_6855.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="IMG_6858.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="IMG_6865.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="IMG_6856.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="3.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="кулаком об кулак только в грудь.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="IMG_6859.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="1.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+        <img data-src="2.JPG" src="https://fakeimg.pl/371x465" class="photos2 lazy loading" />
+    </div>
+
+    <div class="inst container">
+        <a href="https://www.instagram.com/zbarskaya__photographer/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg></a>
+        <p>Copyright© 2023. Kristina Zbarskaya. All Rights Reserved.</p>
+    </div>
+    <script src="lazy.js"></script>
+
+    <section id="contact"></section>
+</body>
+</html>
